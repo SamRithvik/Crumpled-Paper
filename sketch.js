@@ -16,7 +16,7 @@ function preload(){
 
 
 function setup() {
-	createCanvas(1600, 700);
+	createCanvas(windowWidth, windowHeight);
 	rectMode(CENTER);
 
 	engine = Engine.create();
